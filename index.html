@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joel Martinez Renfe</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/hola.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <section id="login">
+        <h1>Iniciar Sesión</h1>
+        <img
+          src="img/ejemplo-retro-del-tren-aislado-en-el-fondo-blanco-diseñe-elemento-para-logotipo-etiqueta-emblema-muestra-114272289.jpg"
+          alt=""
+          width="200"
+        />
+        <label for="name">Inserta tu Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Nombre" />
+        <label for="name">Contraseña:</label>
+        <input type="password" name="pass" id="pass" placeholder="**********" />
+        <button id="jogo" class="boton" onclick="logeado()">Iniciar</button>
+        <p>
+          No tienes cuenta? <span onclick="registrate()">Registrate aquí</span>.
+        </p>
+      </section>
+      <section id="signup" style="display: none">
+        <h1>Registro</h1>
+        <img
+          src="img/ejemplo-retro-del-tren-aislado-en-el-fondo-blanco-diseñe-elemento-para-logotipo-etiqueta-emblema-muestra-114272289.jpg"
+          alt=""
+          width="200"
+        />
+        <label for="name">Inserta tu Nombre:</label>
+        <input type="text" id="name2" name="name" placeholder="Nombre" />
+        <label for="name">Contraseña:</label>
+        <input type="password" name="pass" id="pass2" placeholder="**********" />
+        <label for="name">Nueva Contraseña:</label>
+        <input type="password" name="pass" id="pass3" placeholder="**********" />
+        <button id="jogo" class="boton" onclick="registro()">Registrate</button>
+      </section>
+      <section id="trains" style="display: none">
+        <h1>Selecciona un Vagón</h1>
+        <div class="content">
+          <div id="vips">
+            <h2>VIP</h2>
+            <b>70€/Entrada</b>
+          </div>
+          <div id="normys">
+            <h2>Normys</h2>
+            <b>45€/Entrada</b>
+          </div>
+        </div>
+        <div class="content">
+          <div class="locomotor"></div>
+          <div class="tren vip" onclick="vagonesS(0)"></div>
+          <div class="tren" onclick="vagonesS(1)"></div>
+          <div class="tren" onclick="vagonesS(2)"></div>
+          <div class="tren" onclick="vagonesS(3)"></div>
+          <div class="tren" onclick="vagonesS(4)"></div>
+          <div class="tren" onclick="vagonesS(5)"></div>
+          <div class="tren" onclick="vagonesS(6)"></div>
+          <div class="tren" onclick="vagonesS(7)"></div>
+          <div class="tren vip" onclick="vagonesS(8)"></div>
+          <div class="tren" onclick="vagonesS(9)"></div>
+        </div>
+        <button onclick="factura()">Mirar Factura</button>
+      </section>
+      <section id="sillones" style="display: none">   
+      </section>
+      <section id="factura" style="display: none;">
+      </section>
+    </div>
+  </body>
+</html>

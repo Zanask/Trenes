@@ -1,0 +1,203 @@
+html { 
+    margin: 0px; 
+}
+
+body{
+    background-color: #0B5B67;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login, #signup, #trains{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    height: 90vh;
+    width: 60vw;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #0B5B67;
+    padding: 0px 10px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+input:focus{
+    color: #0B5B67;
+    outline: 2px solid #0B5B67;
+}
+
+p{
+    margin: 0px;
+    font-size: 12px;
+}
+
+span{
+    color: #0B5B67;
+    font-size: 12px;
+}
+
+span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #0B5B67;
+    background-color: #0B5B67;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #053d46;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.centrate{
+    display: block;
+}
+
+#vips{
+    text-align: center;
+    margin: 50px;
+    color: black;
+    background-color: gold;
+    border-radius: 10px;
+    padding: 30px;
+    width: 120px;
+}
+
+#vips:hover{
+    cursor: pointer;
+    background-color: rgb(187, 159, 0);
+}
+
+#normys{
+    text-align: center;
+    margin: 50px;
+    color: white;
+    background-color: #0B5B67;
+    border-radius: 10px;
+    padding: 30px;
+    width: 120px;
+    
+}
+
+#normys:hover{
+    cursor: pointer;
+    background-color: #053d46;
+}
+
+.vip{
+    background-color: gold !important;
+}
+
+.vip:hover{
+    cursor: pointer;
+    background-color: rgb(187, 159, 0) !important;
+}
+
+.tren{
+    width: 60px;
+    height: 30px;
+    background-color: #0B5B67;
+    margin: 2px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.locomotor{
+    width: 60px;
+    height: 30px;
+    background-color: #0B5B67;
+    margin: 2px;
+    border-radius: 100px 10px 0px 0px;
+}
+
+.tren:hover{
+    cursor: pointer;
+    background-color: #053d46;
+}
+
+.centrate{
+    margin-top: 50px;
+}
+
+#sillones{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sillon{
+    width: 30px;
+    height: 35px;
+    background-color: #0B5B67;
+    margin: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.sillon:hover{
+    cursor: pointer;
+    background-color: #053d46;
+}
+
+input[type="submit"] {
+    background-color: #0B5B67;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #053d46;
+}
+
+#factura h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #0B5B67;
+    text-shadow: #053d46 0px 0px 50px;
+}
+
+#factura p{
+    font-size: 15px;
+    font-weight: bold;
+}
